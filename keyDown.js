@@ -1,5 +1,5 @@
 //输入一串长度为n的纯大小写字母所需要摁下的最小总键数（分为caps lock和shift 两种方法）
-//若需要输入“AAAssA...”这样的只需要在upper函数外部给func穿值并存在常量里即可，此处产生的是“ASxzdASHJ...”这样的字符串
+//若需要输入“AAAssA...”这样的只需要在upper函数外部给func穿值并存在常量里即可，此处产生的是“ASxzdASHJ...”这类随机的字符串
 var n = 6;
 var str = "";
 let func = (type) => String.fromCharCode((Math.random() * 26 + (type).charCodeAt(0)));//65-90 97-122
